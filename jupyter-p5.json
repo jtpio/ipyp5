@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "jupyter-p5/extension": true
+  }
+}
