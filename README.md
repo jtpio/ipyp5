@@ -21,6 +21,33 @@ This project aims to be a follow-up of [p5-jupyter-notebook](https://github.com/
 - Proper testing, packaging and documentation once the problems above are solved
 
 
+### Goal
+
+The **ideal goal** (disclaimer: not implemented yet) would be to write code like this in a notebook cell:
+
+```python
+class MySketch(BaseSketch):
+    W, H = 400, 400
+
+    def setup(s):
+        s.createCanvas(s.W, s.H)
+        s.rectMode(s.CENTER)
+
+    def draw(s):
+        s.background('#ddd')
+        s.translate(200, 200)
+        for i in range(4):
+            s.push()
+            s.rotate(s.frameCount / 200 * (i + 1))
+            s.fill(i * 5, i * 100, i * 150)
+            s.rect(0, 0, 200, 200)
+            s.pop()
+
+sketch = MySketch()
+sketch
+```
+
+
 ## Development
 
 The base project was generated from the [TypeScript Cookiecutter Template](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
