@@ -1,8 +1,6 @@
 language: python
 python:
   - 3.6
-  - 3.5
-  - 3.4
 sudo: false
 addons:
   apt_packages:
@@ -11,9 +9,6 @@ env:
   matrix:
     - GROUP=python
 matrix:
-  include:
-    - python: 3.5
-      env: GROUP=js
   include:
     - python: 3.6
       env: GROUP=docs
