@@ -32,11 +32,11 @@ class SketchModel extends DOMWidgetModel {
       // Add any extra serializers here
     }
 
-  static model_name = 'ExampleModel';
+  static model_name = 'SketchModel';
   static model_module = 'jupyter-p5';
   static model_module_version = EXTENSION_SPEC_VERSION;
-  static view_name = 'ExampleView';  // Set to null if no view
-  static view_module = 'jupyter-p5';   // Set to null if no view
+  static view_name = 'SketchView';
+  static view_module = 'jupyter-p5';
   static view_module_version = EXTENSION_SPEC_VERSION;
 }
 

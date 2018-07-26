@@ -12,24 +12,24 @@ import {
 } from './utils.spec';
 
 import {
-  ExampleModel, ExampleView
+  SketchModel, SketchView
 } from '../../src/'
 
 
-describe('Example', () => {
+describe('Sketch', () => {
 
-  describe('ExampleModel', () => {
+  describe('SketchModel', () => {
 
     it('should be createable', () => {
-      let model = createTestModel(ExampleModel);
-      expect(model).to.be.an(ExampleModel);
-      expect(model.get('value')).to.be('Hello World');
+      let model = createTestModel(SketchModel);
+      expect(model).to.be.an(SketchModel);
+      expect(model.get('value')).to.be('');
     });
 
     it('should be createable with a value', () => {
       let state = { value: 'Foo Bar!' }
-      let model = createTestModel(ExampleModel, state);
-      expect(model).to.be.an(ExampleModel);
+      let model = createTestModel(SketchModel, state);
+      expect(model).to.be.an(SketchModel);
       expect(model.get('value')).to.be('Foo Bar!');
     });
 
