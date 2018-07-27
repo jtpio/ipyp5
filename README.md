@@ -2,6 +2,7 @@ ipyp5
 ====
 
 [![Build Status](https://travis-ci.org/jtpio/ipyp5.svg?branch=master)](https://travis-ci.org/jtpio/ipyp5)
+[![Documentation](https://readthedocs.org/projects/ipyp5/badge/?version=latest)](http://ipyp5.readthedocs.org)
 
 :warning: **Disclaimer: this is a work in progress!** :warning:
 
