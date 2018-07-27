@@ -8,3 +8,5 @@ dependencies:
 - jupyter_sphinx
 - nbsphinx
 - sphinx>=1.5
+- pip:
+  - nbsphinx-link
