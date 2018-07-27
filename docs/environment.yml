@@ -4,13 +4,7 @@ channels:
 - defaults
 dependencies:
 - nodejs
+- python=3.5
 - jupyter_sphinx
-- nbformat
 - nbsphinx
-- notebook>=4.2
-- python=3.6
 - sphinx>=1.5
-- sphinx_rtd_theme
-- tornado
-- python-dateutil
-- recommonmark
