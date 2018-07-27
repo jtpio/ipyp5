@@ -10,7 +10,11 @@
     "target": "ES5",
     "outDir": "../build",
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "typeRoots": [
+      "../../src/@types",
+      "../../node_modules/@types"
+    ]
   },
   "include": [
     "**/*.ts"

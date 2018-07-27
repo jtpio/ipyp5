@@ -14,10 +14,6 @@ To get started with ipyp5, install with pip::
 
     pip install ipyp5
 
-or with conda::
-
-    conda install ipyp5
-
 
 Contents
 --------
