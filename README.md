@@ -3,6 +3,7 @@ ipyp5
 
 [![Build Status](https://travis-ci.org/jtpio/ipyp5.svg?branch=master)](https://travis-ci.org/jtpio/ipyp5)
 [![Documentation Status](https://readthedocs.org/projects/ipyp5/badge/?version=latest)](http://ipyp5.readthedocs.io/en/latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![pypi](https://img.shields.io/pypi/v/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 [![Python Versions](https://img.shields.io/pypi/pyversions/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 [![License](https://img.shields.io/pypi/l/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)

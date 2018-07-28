@@ -11,4 +11,4 @@ from ..sketch import Sketch
 
 def test_example_creation_blank():
     w = Sketch()
-    assert w.value == ''
+    assert w.value == ""
