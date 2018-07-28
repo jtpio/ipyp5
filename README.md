@@ -2,7 +2,7 @@ ipyp5
 ====
 
 [![Build Status](https://travis-ci.org/jtpio/ipyp5.svg?branch=master)](https://travis-ci.org/jtpio/ipyp5)
-[![Documentation Status](https://readthedocs.org/projects/ipyp5/badge/?version=latest)](http://ipyp5.readthedocs.io/en/stable/)
+[![Documentation Status](https://readthedocs.org/projects/ipyp5/badge/?version=latest)](http://ipyp5.readthedocs.io/en/latest)
 [![pypi](https://img.shields.io/pypi/v/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 [![pyversions](https://img.shields.io/pypi/pyversions/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 
