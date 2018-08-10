@@ -54,7 +54,6 @@ sketch = MySketch()
 sketch
 ```
 
-
 ## Development
 
 The base project was generated from the [TypeScript Cookiecutter Template](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
@@ -63,7 +62,7 @@ As the types for p5 are not yet available on npm (soon!), the type definitions w
 
 Create a new environment:
 
-`conda create -n ipyp5 python=3.6`
+`conda env create -f ./binder/environment.yml`
 
 `conda activate ipyp5`
 
@@ -77,7 +76,7 @@ Link the Jupyter Labextension to the current working directory (top-level):
 
 Install the widget manager for JupyterLab:
 
-`jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+`jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.36.2`
 
 Start JupyterLab:
 
