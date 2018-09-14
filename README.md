@@ -55,34 +55,6 @@ sketch = MySketch()
 sketch
 ```
 
-## Development
-
-The base project was generated from the [TypeScript Cookiecutter Template](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
-
-
-Create a new environment:
-
-`conda env create -f ./binder/environment.yml`
-
-`conda activate ipyp5`
-
-Install the Python package:
-
-`pip install -e .`
-
-Link the Jupyter Labextension to the current working directory (top-level):
-
-`jupyter labextension install .`
-
-Install the widget manager for JupyterLab:
-
-`jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.36.2`
-
-Start JupyterLab:
-
-`jupyter lab --watch`
-
-
 ## Contributing
 
-TODO
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
