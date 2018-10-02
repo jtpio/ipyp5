@@ -53,8 +53,11 @@ class SketchView extends DOMWidgetView {
   }
 
   remove() {
+    console.log('remove in view');
+    console.log(this.sketch);
     if (this.sketch) {
       this.sketch.remove();
+      console.log('removed')
     }
   }
 }

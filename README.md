@@ -58,7 +58,6 @@ sketch
 
 The base project was generated from the [TypeScript Cookiecutter Template](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
 
-As the types for p5 are not yet available on npm (soon!), the type definitions were manually copied from https://github.com/p5-types/p5.ts/blob/releases/index.d.ts to `./src/@types/p5/index.d.ts`. Later on we can add `@types/p5.js` to the `package.json`.
 
 Create a new environment:
 

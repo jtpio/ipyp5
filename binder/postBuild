@@ -1,3 +1,5 @@
+set -xe
+
 pip install -e .
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.37
