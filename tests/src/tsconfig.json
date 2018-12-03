@@ -1,20 +1,15 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "noImplicitAny": true,
-    "lib": ["dom", "es5", "es2015.promise", "es2015.iterable"],
-    "noEmitOnError": true,
-    "strictNullChecks": true,
+    "esModuleInterop":true,
+    "lib": ["es2015", "dom", "es2015.promise", "es2015.iterable"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "ES5",
+    "noEmitOnError": true,
     "outDir": "../build",
     "skipLibCheck": true,
     "sourceMap": true,
-    "typeRoots": [
-      "../../src/@types",
-      "../../node_modules/@types"
-    ]
+    "target": "es2015",
   },
   "include": [
     "**/*.ts"
