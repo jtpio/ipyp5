@@ -6,7 +6,7 @@ import {
 } from '@jupyter-widgets/base';
 
 import {
-  EXTENSION_SPEC_VERSION
+  MODULE_NAME, MODULE_VERSION
 } from './version';
 
 import {
@@ -33,11 +33,11 @@ class SketchModel extends DOMWidgetModel {
     }
 
   static model_name = 'SketchModel';
-  static model_module = 'jupyter-p5';
-  static model_module_version = EXTENSION_SPEC_VERSION;
+  static model_module = MODULE_NAME;
+  static model_module_version = MODULE_VERSION;
   static view_name = 'SketchView';
-  static view_module = 'jupyter-p5';
-  static view_module_version = EXTENSION_SPEC_VERSION;
+  static view_module = MODULE_NAME;
+  static view_module_version = MODULE_VERSION;
 }
 
 

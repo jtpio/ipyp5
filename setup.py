@@ -27,7 +27,7 @@ from setuptools import setup
 name = "ipyp5"
 
 # Ensure a valid python version
-ensure_python(">=3.3")
+ensure_python(">=3.6")
 
 # Get our version
 version = get_version(pjoin(name, "_version.py"))
@@ -73,6 +73,7 @@ setup_args = dict(
         "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Framework :: Jupyter",
     ],
     include_package_data=True,

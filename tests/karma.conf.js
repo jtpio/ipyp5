@@ -11,7 +11,7 @@ module.exports = function (config) {
     },
     files: [
       { pattern: "tests/src/**/*.ts" },
-      { pattern: "src/**/*.ts" }
+      { pattern: "src/**/*.ts" },
     ],
     preprocessors: {
       '**/*.ts': ['karma-typescript']
