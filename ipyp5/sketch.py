@@ -11,8 +11,7 @@ TODO: Add module docstring
 from ipywidgets import DOMWidget
 from traitlets import Unicode
 from ._version import EXTENSION_SPEC_VERSION
-
-module_name = "jupyter-p5"
+from ._frontend import module_name, module_version
 
 
 class Sketch(DOMWidget):
@@ -21,9 +20,9 @@ class Sketch(DOMWidget):
 
     _model_name = Unicode("SketchModel").tag(sync=True)
     _model_module = Unicode(module_name).tag(sync=True)
-    _model_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
+    _model_module_version = Unicode(module_version).tag(sync=True)
     _view_name = Unicode("SketchView").tag(sync=True)
     _view_module = Unicode(module_name).tag(sync=True)
-    _view_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
+    _view_module_version = Unicode(module_version).tag(sync=True)
 
     value = Unicode("").tag(sync=True)

@@ -13,12 +13,10 @@ import {
   IJupyterWidgetRegistry
  } from '@jupyter-widgets/base';
 
-import {
-  SketchModel, SketchView
-} from './widget';
+import * as widgetExports from './widget';
 
 import {
-  EXTENSION_SPEC_VERSION
+  MODULE_NAME, MODULE_VERSION
 } from './version';
 
 const EXTENSION_ID = 'jupyter.extensions.jupyter-p5';
@@ -42,11 +40,8 @@ export default examplePlugin;
  */
 function activateWidgetExtension(app: Application<Widget>, registry: IJupyterWidgetRegistry): void {
   registry.registerWidget({
-    name: 'jupyter-p5',
-    version: EXTENSION_SPEC_VERSION,
-    exports: {
-      SketchModel: SketchModel,
-      SketchView: SketchView
-    }
+    name: MODULE_NAME,
+    version: MODULE_VERSION,
+    exports: widgetExports,
   });
 }
