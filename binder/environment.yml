@@ -5,3 +5,6 @@ dependencies:
 - jupyterlab=1.0
 - ipywidgets=7.5
 - python=3.7
+- pip
+- pip:
+  - ipyp5=0.1.1

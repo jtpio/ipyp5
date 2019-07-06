@@ -10,7 +10,6 @@ TODO: Add module docstring
 
 from ipywidgets import DOMWidget
 from traitlets import Unicode
-from ._version import EXTENSION_SPEC_VERSION
 from ._frontend import module_name, module_version
 
 
