@@ -172,3 +172,5 @@ ipyp5/labextension/*.tgz
 
 # Packed lab extensions
 ipyp5/labextension
+
+tsconfig.tsbuildinfo

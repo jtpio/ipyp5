@@ -2,6 +2,6 @@ name: ipyp5
 channels:
 - conda-forge
 dependencies:
-- jupyterlab=0.35
-- ipywidgets=7
+- jupyterlab=1.0
+- ipywidgets=7.5
 - python=3.7

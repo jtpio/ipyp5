@@ -12,6 +12,9 @@ conda create -n ipyp5 -c conda-forge jupyterlab notebook nodejs python
 
 # After the environment is created, activate it
 conda activate ipyp5
+
+# Install the widget in editable mode
+python -m pip install -e .
 ```
 
 To install and enable the notebook extension:
@@ -27,7 +30,7 @@ To install the JupyterLab extension:
 jupyter labextension install .
 ```
 
-The `ipyp5` widget can be test in both the classic notebook and JupyterLab. 
+The `ipyp5` widget can be test in both the classic notebook and JupyterLab.
 
 When testing in JupyterLab you can activate the watch mode:
 
