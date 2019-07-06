@@ -27,16 +27,16 @@
   "scripts": {
     "build": "npm run build:lib && npm run build:nbextension",
     "build:labextension": "npm run clean:labextension && mkdirp ipyp5/labextension && cd ipyp5/labextension && npm pack ../..",
-    "build:lib": "tsc --project src",
+    "build:lib": "tsc",
     "build:nbextension": "webpack -p",
     "build:all": "npm run build:labextension && npm run build:nbextension",
     "clean": "npm run clean:lib && npm run clean:nbextension",
-    "clean:lib": "rimraf lib",
+    "clean:lib": "rimraf lib && rimraf tsconfig.tsbuildinfo",
     "clean:labextension": "rimraf ipyp5/labextension",
     "clean:nbextension": "rimraf ipyp5/nbextension/static/index.js",
     "prepack": "npm run build:lib",
     "watch": "npm-run-all -p watch:*",
-    "watch:lib": "tsc -w --project src",
+    "watch:lib": "tsc -w",
     "watch:nbextension": "webpack --watch"
   },
   "dependencies": {
