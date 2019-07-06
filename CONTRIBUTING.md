@@ -4,29 +4,36 @@
 
 The base project was generated from the [TypeScript Cookiecutter Template](https://github.com/jupyter-widgets/widget-ts-cookiecutter).
 
-As the types for p5 are not yet available on npm (soon!), the type definitions were manually copied from https://github.com/p5-types/p5.ts/blob/releases/index.d.ts to `./src/@types/p5/index.d.ts`. Later on we can add `@types/p5.js` to the `package.json`.
-
 ### Setup
 
 ```bash
-# Use the `environment.yml` file used for Binder as a local development environment
-conda env create -f ./binder/environment.yml
+# Create a new environment
+conda create -n ipyp5 -c conda-forge jupyterlab notebook nodejs python
 
 # After the environment is created, activate it
 conda activate ipyp5
-
-# If conda returns an error, try the following
-# source activate ipyp5
-
-# Run the `postBuild` script, which is also used for the Binder setup
-# This will install the Python package as well as the JupyterLab extensions
-chmod +x ./binder/postBuild
-./binder/postBuild
 ```
 
-Finally start JupyterLab:
+To install and enable the notebook extension:
 
-`jupyter lab --watch`
+```bash
+jupyter nbextension install --py --sys-prefix ipyp5
+jupyter nbextension enable --py --sys-prefix ipyp5
+```
+
+To install the JupyterLab extension:
+
+```
+jupyter labextension install .
+```
+
+The `ipyp5` widget can be test in both the classic notebook and JupyterLab. 
+
+When testing in JupyterLab you can activate the watch mode:
+
+```bash
+jupyter lab --watch
+```
 
 ## Pre-commit hooks
 
