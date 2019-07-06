@@ -7,6 +7,6 @@ dependencies:
 - python=3.5
 - jupyter_sphinx
 - nbsphinx
-- sphinx>=1.5
+- sphinx=1.7
 - pip:
   - nbsphinx-link

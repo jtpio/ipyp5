@@ -1,11 +1,2 @@
-set -xe
-
-pip install -e .
-
-# JupyterLab extensions
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38
-jupyter labextension link .
-
-# Classic Notebook extensions
-jupyter nbextension install --py --sys-prefix ipyp5
-jupyter nbextension enable --py --sys-prefix ipyp5
+jupyter labextension install jupyter-p5@0.1.0
