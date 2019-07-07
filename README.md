@@ -7,7 +7,7 @@ ipyp5
 [![pypi](https://img.shields.io/pypi/v/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 [![Python Versions](https://img.shields.io/pypi/pyversions/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
 [![License](https://img.shields.io/pypi/l/ipyp5.svg)](https://pypi.python.org/pypi/ipyp5)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/ipyp5/6fceed521298a2d990694357ecf98208bd0f7b01?urlpath=lab%2Ftree%2Fexamples%2Fintroduction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/ipyp5/stable?urlpath=lab%2Ftree%2Fexamples%2Fintroduction.ipynb)
 
 :warning: **Disclaimer: this is a work in progress!** :warning:
 
