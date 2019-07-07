@@ -7,4 +7,4 @@ dependencies:
 - python=3.7
 - pip
 - pip:
-  - ipyp5=0.1.1
+  - ipyp5==0.1.1
