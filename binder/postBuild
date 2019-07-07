@@ -1,2 +1,2 @@
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38
-jupyter labextension install jupyter-p5@0.1.0
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-p5@0.1.1
